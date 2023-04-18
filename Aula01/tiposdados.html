@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <p id="demo7"></p>
+
+    <script>
+        //Números
+        let length = 16;
+        let weigt = 7.5;
+        //Strings
+        let color = "Yellow";
+        let lastName = "Cunha";
+
+        //Booleanos
+        let x = true;
+        let y = false;
+
+        //Objetos
+        const person = {firstName:"Timoteo", lastName:"Frang"};
+
+        //Array:
+        const cars = ["Audi", "BMW"];
+
+        //Data:
+        const date = new Date("2022-03-25");
+
+        document.getElementById("demo").innerHTML = length;
+        document.getElementById("demo1").innerHTML = weigt;
+        document.getElementById("demo2").innerHTML = color;
+        document.getElementById("demo3").innerHTML = lastName;
+        document.getElementById("demo4").innerHTML = x + " "+y;
+        document.getElementById("demo5").innerHTML = person.firstName;
+        document.getElementById("demo6").innerHTML = cars[1];
+        document.getElementById("demo7").innerHTML = date;
+    </script>
+
+    <p id="demo8"></p>
+    <p id="demo9"></p>
+    <p id="demo10"></p>
+    <script>
+        let z = 16 + 4 + " Volvo";
+        document.getElementById("demo8").innerHTML = z;
+
+        let i = "Volvo " + 16 + 4;
+        document.getElementById("demo9").innerHTML = i;
+        
+        document.getElementById("demo9").innerHTML = "Hoje estamos a programar em 'JavaScript'.";
+    </script>
+</body>
+</html>
